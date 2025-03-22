@@ -8,8 +8,8 @@ func _ready():
 		print("Signal:", signal_info.name)
 
 	# Now connect
-	go_node.connect("my_signal_event_handler", Callable(self, "_on_my_signal"))
-	go_node.connect("my_signal_with_params_handler", Callable(self, "_on_my_signal_with_params"))
+	go_node.connect("my_signal_event_handler", Callable(self, "on_my_signal"))
+	go_node.connect("my_signal_with_params_handler", Callable(self, "on_my_signal_with_params"))
 
 	# Emit them
 	go_node.emit_signal("my_signal_event_handler")
