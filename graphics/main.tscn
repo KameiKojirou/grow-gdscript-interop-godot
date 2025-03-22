@@ -5,4 +5,4 @@
 [node name="Node" type="Node"]
 script = ExtResource("1_ig7tw")
 
-[node name="MyGoNode" type="Node" parent="."]
+[node name="MyGoNode" type="MyGoNode" parent="."]
