@@ -1,6 +1,6 @@
 extends Node
 
-@onready var go_node = $MyGoNode
+@onready var go_node: MyGoNode = $MyGoNode
 
 func _ready():
 	# Debug signal list
