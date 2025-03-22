@@ -8,7 +8,7 @@ import (
 )
 
 type MyGoNode struct {
-    classdb.Extension[MyGoNode, Node.Instance] `gd:"Node"`
+    classdb.Extension[MyGoNode, Node.Instance] `gd:"MyGoNode"`
     MySignalEventHandler Signal.Void `gd:"my_signal_event_handler()"`
     MySignalWithParamsEventHandler Signal.Pair[string, int] `gd:"my_signal_with_params_handler(message, n)"`
     MyProperty string
